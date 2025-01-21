@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+.nav{
+    height: 80px;
+    width: 100%;
+    background-color:white;
+    align-items: center;
+    justify-content:space-around;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    position: fixed ;
+    top: 0;
+
+}
+.main{
+    height:100vh;
+    width: 100%;
+     /* background-color: aqua;  */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+     height:100px; 
+     width: 200px;
+
+   
+}
+.logo{
+    height:70px;
+    width:100px;
+    /* background-color: darksalmon; */
+    display: flex;
+    align-items: center;
+     justify-content: center; 
+    
+    
+}
+.menus{
+    height: 70px;
+    width:300px;
+    /* background-color: rgb(32, 97, 153); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.sig ul{
+    display: flex;
+   justify-content: space-evenly;
+   gap:30px;
+   color: rgba(27, 26, 26, 0.993);
+}
+.sig ul li:hover{
+    color: #387ed1;
+    cursor:pointer;
+
+}
+
+.img{
+    height: 80%;
+    width:80%;
+    /* background-color: dodgerblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.platfrom{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-items: center;
+   row-gap: 10px;
+    
+}
+.button{
+    height: 35px;
+    width: 15%;
+    background-color: #387ed1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.im img{
+   height: 500px;
+   margin-left:30px ;
+}
+.imfor{
+    height: 600px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+   
+    margin-top: 40px;
+
+
+}
+.cont{
+    height:500px;
+    width: 30%;
+    /* background-color: #387ed1; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-left: 160px;
+    color: rgb(37, 34, 34);
+    
+}
+.cont p{
+    color: rgb(80, 78, 78);
+}
+.sa{
+    height: 40px;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* background-color: blue; */
+}
+.loim img{
+    height: 100px;
+    width: 200px;
+   
+}
+.min{
+    height: 200px;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    margin-left: 130px;
+   
+}
+.zer h1{
+    color: rgb(37, 33, 33);
+}
+.zer p{
+    color: rgb(77, 69, 69);
+}
+.loim{
+    display: flex;
+    /* align-items: center; */
+   justify-content: end;
+}
+.imcart img{
+    height: 400px;
+    width: 400px;
+    display: flex;
+
+}
+.imcart{
+    height: 500px;
+    width: 500px;
+    /* background-color: blue; */
+}
+.discription h1{
+    color: rgb(49, 46, 46);
+}
+.discription{
+    margin-top: 150px;
+}
+.discription p{
+    
+    /* background-color: blue; */
+    color: gray;
+    margin-bottom: 50px;
+}
+.cart{
+    display: flex;
+    align-items: space-around;
+    justify-content: center;
+}
+.h22{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.butt{
+    height: 35px;
+    width: 15%;
+    background-color: #387ed1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+   
+}
+.h22 p{
+    color: gray;
+}
+.zero{
+    height: 250px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    gap: 20px;
+    display: flex;
+   background-color: rgba(128, 128, 128, 0.055);
+    justify-content: center;
+    margin-top: 20px;
+    /* padding-top: 50px; */
+}
+.zero h2{
+    color: rgb(110, 99, 99);
+}
+.zero ul li{
+    color: gray;
+}
+.icon{
+    height: 60%;
+    width: 20%
+    /* background-color:blueviolet; */
+}
+.company{
+    height: 100%;
+    width: 20%;
+    /* background-color:blueviolet; */
+}
+.support{
+    height: 100%;
+    width: 20%;
+    /* background-color:blueviolet; */
+}
+.account{
+    height: 100%;
+    width: 20%;
+    /* background-color:blueviolet; */
+}
+.box p{
+    font-size: 13px;
+    margin-top: 0px;
+}
+.box img{
+    height: 30px;
+}
+.col{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+.col p{
+    font-size: 12px;
+    color:gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.034);
+    
+}
